@@ -28,3 +28,5 @@ A Flask-based web application that records client IP addresses, device types, an
 * It uses templates to render the user interface.
 
 ## Live app 
+* Join `https://khaledxab.pythonanywhere.com`
+* You can find the ip result here `https://khaledxab.pythonanywhere.com/result`
