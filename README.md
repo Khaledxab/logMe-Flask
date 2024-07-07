@@ -26,8 +26,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Running the Application
 Start the Flask server:
-    ```bash
-    python app.py
+
+    ```bash python app.py
 
 
 
