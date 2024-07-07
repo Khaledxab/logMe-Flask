@@ -1,0 +1,2 @@
+2024-07-07 02:39:52 - IP: 127.0.0.1 - Location BLOCKED 🤬 - Device: Desktop
+2024-07-07 02:40:02 - IP: 127.0.0.1 - Latitude: 34.7275264, Longitude: 10.7446272 - Device: Desktop - DeviceSystem: Windows
