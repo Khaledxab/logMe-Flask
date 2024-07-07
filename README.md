@@ -25,8 +25,7 @@ These instructions will get you a copy of the project up and running on your loc
     pip install -r requirements.txt
 
 ### Running the Application
-Start the Flask server:
-    # python app.py
+python app.py
 
 
     
