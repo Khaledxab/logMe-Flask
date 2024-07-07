@@ -1,31 +1,30 @@
-# IP Logger with Flask
+# IP Recorder and Device Identifier
+A Flask-based web application that records client IP addresses, device types, and device systems, along with their geographic locations (if allowed by the user).
 
-This Flask application logs IP addresses along with device information and location data (if permitted by the user).
+## Features
 
-## Getting Started
+* Records client IP addresses
+* Identifies device types (Mobile, Desktop, or Bot)
+* Identifies device systems (Windows, MacOS, Android, iOS, Linux, or Unknown)
+* Records geographic locations (latitude and longitude) if allowed by the user
+* Displays recorded results in a user-friendly format
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+## How to Use
 
-### Prerequisites
+1. Run the application by executing `python app.py` in your terminal.
+2. Open a web browser and navigate to `http://localhost:5000/`.
+3. The application will prompt you to allow or deny location access. Choose accordingly.
+4. If you allow location access, the application will record your IP address, device type, device system, and geographic location.
+5. If you deny location access, the application will still record your IP address, device type, and device system, but will indicate that the location is blocked.
+6. To view the recorded results, navigate to `http://localhost:5000/result`.
 
-- Python 3.x
-- Flask
+## Technical Details
 
-### Installing
+* The application uses Flask as the web framework.
+* It uses the `request` object to get the client's IP address and user agent.
+* It uses regular expressions to identify device types and systems from the user agent string.
+* It uses the `datetime` module to record the current time.
+* It stores the recorded results in a text file named `result.txt`.
+* It uses templates to render the user interface.
 
-1. Clone the repository:
-
-   ```bash
-   git clone <repository_url>
-   cd ip-logger-flask
-
-2. Install dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-
-### Running the Application
-python app.py
-
-
-    
+## Live app 
