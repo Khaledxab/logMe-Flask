@@ -19,4 +19,17 @@ These instructions will get you a copy of the project up and running on your loc
    git clone <repository_url>
    cd ip-logger-flask
 
-2. rezr
+2. Install dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+
+### Running the Application
+Start the Flask server:
+
+    ```bash
+    python app.py
+
+
+
+    
